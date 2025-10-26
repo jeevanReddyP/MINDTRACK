@@ -20,7 +20,7 @@ const Login = () => {
       if (res.ok) {
         alert("Login successful!");
         localStorage.setItem("token", data.token);
-       navigate("/challenge");
+        navigate("/challenge-setup");
       } else {
         alert(data.message || "Login failed!");
       }

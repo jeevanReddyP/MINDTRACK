@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // ✅ Import navigation hook
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom'; // ✅ Import navigation hook
 const Login = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const navigate = useNavigate();
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
   const handleLogin = async (e) => {
     e.preventDefault();
 
@@ -15,15 +15,15 @@ const Login = () => {
       });
 
       const data = await res.json();
-      console.log(data);
+      console.log(data); 
 
       if (res.ok) {
         alert("Login successful!");
         localStorage.setItem("token", data.token);
-       navigate("/challenge");
       } else {
         alert(data.message || "Login failed!");
       }
+
     } catch (error) {
       console.error("Login error:", error);
       alert("Something went wrong!");
@@ -42,7 +42,7 @@ const Login = () => {
             type="email"
             placeholder="Email"
             value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={(e) => setEmail(e.target.value)} 
             className="w-full px-4 py-2 border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00baa5]"
           />
 
@@ -50,16 +50,16 @@ const Login = () => {
             type="password"
             placeholder="Password"
             value={password}
-            onChange={(e) => setPassword(e.target.value)}
+            onChange={(e) => setPassword(e.target.value)} 
             className="w-full px-4 py-2 border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00baa5]"
           />
 
           <button
             type="submit"
             className="w-full text-white py-2 rounded-lg transition duration-300 font-semibold"
-            style={{ backgroundColor: "#00baa5" }}
-            onMouseEnter={(e) => (e.target.style.backgroundColor = "#00a592")}
-            onMouseLeave={(e) => (e.target.style.backgroundColor = "#00baa5")}
+            style={{ backgroundColor: '#00baa5' }}
+            onMouseEnter={(e) => (e.target.style.backgroundColor = '#00a592')}
+            onMouseLeave={(e) => (e.target.style.backgroundColor = '#00baa5')}
           >
             Log in
           </button>
@@ -67,10 +67,7 @@ const Login = () => {
 
         <p className="text-center text-sm text-gray-500 mt-6">
           Don’t have an account?{" "}
-          <a
-            href="/signup"
-            className="text-[#00baa5] hover:underline font-medium"
-          >
+          <a href="/signup" className="text-[#00baa5] hover:underline font-medium">
             Sign up
           </a>
         </p>
