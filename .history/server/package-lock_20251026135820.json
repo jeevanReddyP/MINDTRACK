@@ -7,12 +7,19 @@
     "": {
       "name": "mindtrack",
       "version": "1.0.0",
+
+      "license": "ISC",
+      "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+
       "dependencies": {
         "bcryptjs": "^2.4.3",
         "cors": "^2.8.5",
         "dotenv": "^17.2.3",
         "express": "^5.1.0",
         "jsonwebtoken": "^9.0.2",
+ 1d6983498026593c03fcd37f8956ec4f51f69880
         "mongoose": "^8.19.2",
         "nodemon": "^3.1.10"
       }

@@ -7,6 +7,12 @@
     "": {
       "name": "mindtrack",
       "version": "1.0.0",
+
+      "license": "ISC",
+      "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+
       "dependencies": {
         "bcryptjs": "^2.4.3",
         "cors": "^2.8.5",
@@ -1508,5 +1514,5 @@
       "integrity": "sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==",
       "license": "ISC"
     }
-  }
+  },
 }

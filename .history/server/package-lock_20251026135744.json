@@ -7,12 +7,19 @@
     "": {
       "name": "mindtrack",
       "version": "1.0.0",
+
+      "license": "ISC",
+      "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+
       "dependencies": {
         "bcryptjs": "^2.4.3",
         "cors": "^2.8.5",
         "dotenv": "^17.2.3",
         "express": "^5.1.0",
         "jsonwebtoken": "^9.0.2",
+ 1d6983498026593c03fcd37f8956ec4f51f69880
         "mongoose": "^8.19.2",
         "nodemon": "^3.1.10"
       }
@@ -73,12 +80,15 @@
       "integrity": "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==",
       "license": "MIT"
     },
+<<<<<<< HEAD
+=======
     "node_modules/bcryptjs": {
       "version": "2.4.3",
       "resolved": "https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.4.3.tgz",
       "integrity": "sha512-V/Hy/X9Vt7f3BbPJEi8BdVFMByHi+jNXrYkW3huaybV/kQ0KJg0Y6PkEMbn+zeT+i+SiKZ/HMqJGIIt4LZDqNQ==",
       "license": "MIT"
     },
+>>>>>>> 1d6983498026593c03fcd37f8956ec4f51f69880
     "node_modules/binary-extensions": {
       "version": "2.3.0",
       "resolved": "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz",
@@ -142,12 +152,15 @@
         "node": ">=16.20.1"
       }
     },
+<<<<<<< HEAD
+=======
     "node_modules/buffer-equal-constant-time": {
       "version": "1.0.1",
       "resolved": "https://registry.npmjs.org/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz",
       "integrity": "sha512-zRpUiDwd/xk6ADqPMATG8vc9VPrkck7T07OIx0gnjmJAnHnTVXNQG3vfvWNuiZIkwu9KrKdA1iJKfsfTVxE6NA==",
       "license": "BSD-3-Clause"
     },
+>>>>>>> 1d6983498026593c03fcd37f8956ec4f51f69880
     "node_modules/bytes": {
       "version": "3.1.2",
       "resolved": "https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz",
@@ -294,6 +307,8 @@
         "node": ">= 0.8"
       }
     },
+<<<<<<< HEAD
+=======
     "node_modules/dotenv": {
       "version": "17.2.3",
       "resolved": "https://registry.npmjs.org/dotenv/-/dotenv-17.2.3.tgz",
@@ -306,6 +321,7 @@
         "url": "https://dotenvx.com"
       }
     },
+>>>>>>> 1d6983498026593c03fcd37f8956ec4f51f69880
     "node_modules/dunder-proto": {
       "version": "1.0.1",
       "resolved": "https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz",
@@ -753,6 +769,8 @@
         "node": ">=12.0.0"
       }
     },
+<<<<<<< HEAD
+=======
     "node_modules/lodash.includes": {
       "version": "4.3.0",
       "resolved": "https://registry.npmjs.org/lodash.includes/-/lodash.includes-4.3.0.tgz",
@@ -795,6 +813,7 @@
       "integrity": "sha512-Sb487aTOCr9drQVL8pIxOzVhafOjZN9UU54hiN8PU3uAiSV7lx1yYNpbNmex2PK6dSJoNTSJUUswT651yww3Mg==",
       "license": "MIT"
     },
+>>>>>>> 1d6983498026593c03fcd37f8956ec4f51f69880
     "node_modules/math-intrinsics": {
       "version": "1.1.0",
       "resolved": "https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz",

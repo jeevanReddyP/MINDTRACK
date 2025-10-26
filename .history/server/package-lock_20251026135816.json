@@ -7,12 +7,19 @@
     "": {
       "name": "mindtrack",
       "version": "1.0.0",
+
+      "license": "ISC",
+      "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+
       "dependencies": {
         "bcryptjs": "^2.4.3",
         "cors": "^2.8.5",
         "dotenv": "^17.2.3",
         "express": "^5.1.0",
         "jsonwebtoken": "^9.0.2",
+ 1d6983498026593c03fcd37f8956ec4f51f69880
         "mongoose": "^8.19.2",
         "nodemon": "^3.1.10"
       }
@@ -142,12 +149,15 @@
         "node": ">=16.20.1"
       }
     },
+<<<<<<< HEAD
+=======
     "node_modules/buffer-equal-constant-time": {
       "version": "1.0.1",
       "resolved": "https://registry.npmjs.org/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz",
       "integrity": "sha512-zRpUiDwd/xk6ADqPMATG8vc9VPrkck7T07OIx0gnjmJAnHnTVXNQG3vfvWNuiZIkwu9KrKdA1iJKfsfTVxE6NA==",
       "license": "BSD-3-Clause"
     },
+>>>>>>> 1d6983498026593c03fcd37f8956ec4f51f69880
     "node_modules/bytes": {
       "version": "3.1.2",
       "resolved": "https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz",
