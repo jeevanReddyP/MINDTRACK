@@ -2,3 +2,6 @@ export const App_Logo="https://t3.ftcdn.net/jpg/02/51/54/10/360_F_251541007_IOSr
 export const image1="https://images.pexels.com/photos/2158963/pexels-photo-2158963.jpeg"
 export const image2 ="https://images.pexels.com/photos/864091/pexels-photo-864091.jpeg"
 export const image3 ="https://images.pexels.com/photos/3094215/pexels-photo-3094215.jpeg"
+export const image4 ="https://images.pexels.com/photos/1571939/pexels-photo-1571939.jpeg"
+export const image5 ="https://images.pexels.com/photos/34514/spot-runs-start-la.jpg"
+export const video1 ="https://www.pexels.com/download/video/855789/"

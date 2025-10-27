@@ -4,6 +4,7 @@ import { App_Logo } from '../assets/material';
 import Lottie from 'lottie-react'; 
 import animationDataString from "../assets/Morphing (1).json?raw";
 import Aboutus from './Aboutus';
+import About1 from './About1';
 
 const Face1 = () => {
   const navigate = useNavigate();
@@ -68,6 +69,7 @@ const gotosignup = () => {
  
 </div>
 <div>
+  <About1/>
   <Aboutus/>
 </div>
   </>
